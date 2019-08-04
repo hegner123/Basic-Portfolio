@@ -1,3 +1,6 @@
+
+
+
 body {
   background-image:url("../images/white-waves.png");
   margin:0px;
@@ -172,8 +175,6 @@ body {
   background:#4aaaa5;
   color:#ffffff;
   padding:20px;
-  float:left;
-  clear:both;
   position: relative;
   bottom:-36px;
   font-size:20px;
