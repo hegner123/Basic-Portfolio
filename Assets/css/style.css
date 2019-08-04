@@ -1,28 +1,194 @@
 body {
-  background-color:darkgrey;
-  margin:0;
-  padding:0;
+  background-image:url("../images/white-waves.png");
+  margin:0px;
+  padding:0px;
+  font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color:#777777;
+}
+
+
+.headingFont {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.navButton:hover { 
+  background-color: #4aaaa5;
+  color:white; 
 }
 
 #navbar {
-  background-color:black;
-  color:white;
-  padding-top:10px;
-  padding-bottom:10px;
-  z-index: -1;
+  padding:20px;
+  background:white;
+  text-align:center;
+  z-index: 1;
+  height:30px;
+  border:solid #cccc;
+  border-width:0 0 3px 0;
+}
+
+.navContent {
+  width:960px;
+  position: relative;
+  left:250px;
+}
+
+.logoButton {
+  padding:20px;
+  background:#4aaaa5;
+  float:left;
+  height:30px;
+  margin-right:423px;
+  position: relative;
+  top:-20px;
+  z-index: 2;
 }
 
 .nameLink {
   text-decoration: none;
   color:white;
+  position: relative;
+  bottom:20px;
 }
 
-.logoButton {
-  padding:10px;
-  background:darkgrey;
-  width:auto;
+.navButton {
+  padding:20px 10px 20px;
+  position:relative;
+  top:-20px;
+  width:80px;
+  float:left;
+  height:30px;
+  z-index: 1;
 }
 
-.about {
+.active {
+  background:#4aaaa5;
+}
+
+.activeLink {
+  color:white;
+  text-decoration: none;
+  position: relative;
+  bottom:-10px;
+}
+
+.deadLink {
+  text-decoration: none;
+  position: relative;
+  bottom:-10px;
+  color:grey;
+}
+
+
+
+.content {
+  width:920px;
+  padding:20px 20px 50px;
+  background:#ffffff;
+  overflow:auto;
+  clear:both;
+  text-align:center;
+  font-size:17px;
+  position: relative;
+  left:270px;
+  border:#dddddd solid 5px;
+}
+
+#aboutPic {
+  width:20%;
+  float:left;
+  margin:20px 5px 5px;
+  position: relative;
+  z-index: 2;
+}
+
+.contentHead {
+  border-style:solid;
+  border-width:0px 0px 1px;
+  border-color:#cccccc;
+  text-align: left;
+}
+
+#aboutHead {
+  color:#4aaaa5;
+}
+.contentText {
+  text-align:left;
+}
+
+.footer {
   padding:20px;
+  height:20px;
+  text-align:center;
+  position: fixed;
+  bottom:0px;
+  background:#666666;
+  color:white;
+  width:100%;
+  border:solid #4aaaa5;
+  border-width:5px 0px 0px 0px;
+}
+
+.contentImgDiv{
+  text-align: center;
+  width: 320px;
+  height: 240px;
+  float: left;
+  margin: 40px;
+  position: relative;
+  left: 63px;
+}
+.contentImg {
+  width: inherit;
+  margin:0;
+ z-index: 1;
+}
+
+.caption {
+  background:#4aaaa5;
+  color:#ffffff;
+  padding:10px 0px;
+  z-index:2;
+  width:inherit;
+  position: relative;
+  bottom:80px;
+}
+
+.space {
+  width:960px;
+  height:100px;
+}
+
+.contactForm {
+  text-align:left;
+}
+
+.name {
+  width:800px;
+  font-size:18px;
+}
+
+.email {
+  width:800px;
+  font-size:18px;
+}
+
+.textArea {
+  width:800px;
+  font-size:18px;
+  height:250px;
+  margin-bottom:2px;
+}
+#submit {
+  background:#4aaaa5;
+  color:#ffffff;
+  padding:20px;
+  float:left;
+  clear:both;
+  position: relative;
+  bottom:-36px;
+  font-size:20px;
+}
+
+#submit:hover {
+  outline:solid 5px #4aaaa5;
 }
