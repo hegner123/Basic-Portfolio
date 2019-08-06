@@ -28,7 +28,6 @@ body {
 
 .nameLink:link {
   text-decoration: none;
- 
   padding:2px 10px;
   background:#4aaaa5;
   float:left;
@@ -69,14 +68,13 @@ body {
 }
 
 .deadLink:link {
-  text-decoration: none;
-  color:grey;
+  float:left;
   display:inline-block;
+  text-decoration: none;
   padding:26px 10px;
   position:relative;
   top:-20px;
   width:80px;
-  float:left;
 }
 
 .deadLink:hover {
