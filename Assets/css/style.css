@@ -60,6 +60,7 @@ body {
   top:-20px;
   width:80px;
   float:left;
+  display:block;
   text-decoration: none;
 }
 
@@ -69,7 +70,7 @@ body {
 
 .deadLink:link {
   float:left;
-  display:inline-block;
+  display:block;
   text-decoration: none;
   padding:26px 10px;
   position:relative;
@@ -106,6 +107,7 @@ body {
   border-width:0px 0px 1px;
   border-color:#cccccc;
   text-align: left;
+  color:#4aaaa5;
 }
 
 .aboutHead {
