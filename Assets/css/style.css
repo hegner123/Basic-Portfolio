@@ -94,11 +94,18 @@ body {
   border:#dddddd solid 5px;
 }
 
+.image {
+  position: relative;
+  top:-20px;
+}
+
 #aboutPic {
   width:20%;
   float:left;
-  margin:20px 5px 5px;
+  margin:20px 20px 0px 0px;
   position: relative;
+  
+  border:solid #777777 2px;
   z-index: 2;
 }
 
@@ -151,6 +158,10 @@ body {
   padding:10px 0px;
   position: relative;
   bottom:80px;
+}
+
+.caption:hover {
+  font-size:20px;
 }
 
 .space {
